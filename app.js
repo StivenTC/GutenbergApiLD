@@ -1,8 +1,10 @@
 var express = require("express");
-var app = express();
+var server = express();
 
-var routes = require("./routes/routes.js")(app);
+var routes = require("./routes/routes.js")(server);
 
-var server = app.listen(3000, function () {
-  console.log("Listening on port %s...", server.address().port);
+config = require('./config');
+
+server.listen(config.server.port, config.server.ip, function () {
+  console.log('Servidor corriendo en ' + config.server.ip + ':' + config.server.port);
 });
