@@ -1,0 +1,23 @@
+{
+  "name": "apigutenbergld",
+  "version": "1.0.0",
+  "description": "Parse Gutenberg.org data in JSON LD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StivenTC/GutenbergApiLD.git"
+  },
+  "author": "Stiven Tovar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StivenTC/GutenbergApiLD/issues"
+  },
+  "homepage": "https://github.com/StivenTC/GutenbergApiLD#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
